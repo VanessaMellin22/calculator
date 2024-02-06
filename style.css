@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    padding: 90px 0;
+    background-image: url(https://marketplace.canva.com/EAFM1ceLldw/1/0/1600w/canva-purple-floral-gradient-october-2022-desktop-wallpaper-9yNt-olySLY.jpg);
+}
+
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #4e1686;
+    padding: 20px;
+    border-radius: 1.5rem;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    font: normal 4rem serif;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.calculator button{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+button:hover{
+    background-color: #3c096c;
+    color: #ffffff;
+}
+#hist{
+  text-decoration: dashed;
+  margin-left: 70rem;
+  margin-top: -30rem;
+  color: #fff;
+}
